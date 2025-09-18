@@ -5,7 +5,7 @@ import Organiser
 import config
 
 root = tk.Tk()
-root.title("Sortify 🧼")
+root.title("Sortify ")
 root.geometry("600x400")  # Set width x height
 
 # Optional: Set icon (make sure you have .ico file)
@@ -28,13 +28,14 @@ def create_folders():
     config.create_folders()
     messagebox.showinfo("Folders", "Folders checked and created.")
 
-scan_button = tk.Button(root, text="📂 Scan Downloads", command=scan_files)
+scan_button = tk.Button(root, text=" Scan Downloads", command=scan_files)
 scan_button.pack(pady=5)
 
-organise_button = tk.Button(root, text="🧃 Organise Files", command=organise_files)
+organise_button = tk.Button(root, text=" Organise Files", command=organise_files)
 organise_button.pack(pady=5)
 
-create_button = tk.Button(root, text="🧰 Create Folders", command=create_folders)
+create_button = tk.Button(root, text=" Create Folders", command=create_folders)
 create_button.pack(pady=5)
 
 root.mainloop()
+
