@@ -29,14 +29,15 @@ def create_folders():
         # Only create if path doesn't exist
         if os.path.exists(folder_path):
             if os.path.isfile(folder_path):
-                print(f"🚨 Cannot create folder '{category}'; a file with the same name exists.")
+                print(f" Cannot create folder '{category}'; a file with the same name exists.")
             else:
                 # folder already exists
                 continue
         else:
             os.makedirs(folder_path)
-            print(f"📁 Created folder: {folder_path}")
+            print(f" Created folder: {folder_path}")
 
 
     
+
 
