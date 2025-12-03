@@ -8,7 +8,7 @@
   <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-# 📁 Sortify — Automatic Downloads Folder Organizer
+<h1 style="font-size:28px; font-weight:600;">📁 Sortify — Automatic Downloads Folder Organizer</h1>
 
 Sortify is a lightweight Python desktop tool that automatically organizes your cluttered **Downloads** folder into neat, categorized subfolders — all with a clean and intuitive GUI.
 
@@ -18,7 +18,7 @@ Sortify is a lightweight Python desktop tool that automatically organizes your c
   <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 🌟 Features
+<h2 style="font-size:22px; font-weight:600;">🌟 Features</h2>
 
 <p align="center">
   <img src="assets/features-dark.png" width="400" style="max-width:100%;height:auto;" alt="Feature Cards">
@@ -30,9 +30,9 @@ Sortify is a lightweight Python desktop tool that automatically organizes your c
   <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 🖥️ Application Screens
+<h2 style="font-size:22px; font-weight:600;">🖥️ Application Screens</h2>
 
-### **1️⃣ Choose Folder**
+<h3 style="font-size:18px; font-weight:600;">1️⃣ Choose Folder</h3>
 <p align="center">
   <img src="assets/mockup%20-%20choose.png" width="300" style="max-width:50%;height:auto;" alt="Choose Folder">
 </p>
@@ -43,7 +43,7 @@ Sortify is a lightweight Python desktop tool that automatically organizes your c
   <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-### **2️⃣ Sorting in Progress**
+<h3 style="font-size:18px; font-weight:600;">2️⃣ Sorting in Progress</h3>
 <p align="center">
   <img src="assets/mockup%20-%20sorting.png" width="300" style="max-width:100%;height:auto;" alt="Sorting Progress">
 </p>
@@ -54,7 +54,7 @@ Sortify is a lightweight Python desktop tool that automatically organizes your c
   <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-### **3️⃣ Sorting Complete**
+<h3 style="font-size:18px; font-weight:600;">3️⃣ Sorting Complete</h3>
 <p align="center">
   <img src="assets/mockup%20-%20complete.png" width="300" style="max-width:100%;height:auto;" alt="Sorting Complete">
 </p>
@@ -65,7 +65,7 @@ Sortify is a lightweight Python desktop tool that automatically organizes your c
   <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## ⚙️ How It Works
+<h2 style="font-size:22px; font-weight:600;">⚙️ How It Works</h2>
 
 Sortify scans your chosen folder and automatically moves files into categorized subfolders based on extension mappings defined inside `config.py`.
 
@@ -84,7 +84,7 @@ You can customize all categories to fit your workflow.
   <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 🚀 Getting Started
+<h2 style="font-size:22px; font-weight:600;">🚀 Getting Started</h2>
 
 ### 1. Clone the Repository
 ```bash
@@ -110,7 +110,7 @@ The Sortify GUI will launch — select your folder and click **Sort** to clean e
   <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 🧩 Project Structure
+<h2 style="font-size:22px; font-weight:600;">🧩 Project Structure</h2>
 
 ```
 Sortify/
@@ -128,7 +128,7 @@ Sortify/
   <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## ✨ Dark Mode Banner
+<h2 style="font-size:22px; font-weight:600;">✨ Dark Mode Banner</h2>
 
 <p align="center">
   <img src="assets/banner-dark.png" width="400" style="max-width:100%;height:auto;" alt="Dark Mode Banner">
@@ -140,7 +140,7 @@ Sortify/
   <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 🔮 Future Enhancements
+<h2 style="font-size:22px; font-weight:600;">🔮 Future Enhancements</h2>
 
 - Drag-and-drop folder selection  
 - Progress bar with real-time updates  
@@ -155,9 +155,9 @@ Sortify/
   <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
 </p>
 
-## 👤 Developer
+<h2 style="font-size:22px; font-weight:600;">👤 Developer</h2>
 
-Mallesh   
+Mallesh  
 Building automation tools, clean UIs, and useful desktop utilities in Python.
 
 If you like this project, consider giving it a ⭐ on GitHub!
