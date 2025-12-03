@@ -1,134 +1,167 @@
-![Sortify Banner](assets/banner.jpg)
+<p align="center">
+  <img src="assets/banner.jpg" width="500" style="max-width:100%;height:auto;" alt="Sortify Banner">
+</p>
 
----
+<hr>
 
-![Divider](assets/star.png)
+<p align="center">
+  <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 # 📁 Sortify — Automatic Downloads Folder Organizer
 
-Sortify is a lightweight Python desktop utility that instantly organizes your cluttered **Downloads** folder into clean, categorized subfolders — with a simple, intuitive GUI.
+Sortify is a lightweight Python desktop tool that automatically organizes your cluttered **Downloads** folder into neat, categorized subfolders — all with a clean and intuitive GUI.
 
----
+<hr>
 
-![Divider](assets/wave.png)
+<p align="center">
+  <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 🌟 Features
 
-![Sortify Features](assets/Features-light.png)
+<p align="center">
+  <img src="assets/features-dark.png" width="400" style="max-width:100%;height:auto;" alt="Feature Cards">
+</p>
 
----
+<hr>
 
-![Divider](assets/Dots.png)
+<p align="center">
+  <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 🖥️ Application Screens
 
 ### **1️⃣ Choose Folder**
-![Choose Folder](assets/mockup-choose.png)
+<p align="center">
+  <img src="assets/mockup%20-%20choose.png" width="300" style="max-width:50%;height:auto;" alt="Choose Folder">
+</p>
 
----
+<hr>
 
-![Divider](assets/star.png)
+<p align="center">
+  <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ### **2️⃣ Sorting in Progress**
-![Sorting Progress](assets/mockup-sorting.png)
+<p align="center">
+  <img src="assets/mockup%20-%20sorting.png" width="300" style="max-width:100%;height:auto;" alt="Sorting Progress">
+</p>
 
----
+<hr>
 
-![Divider](assets/wave.png)
+<p align="center">
+  <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ### **3️⃣ Sorting Complete**
-![Sorting Complete](assets/mockup-complete.png)
+<p align="center">
+  <img src="assets/mockup%20-%20complete.png" width="300" style="max-width:100%;height:auto;" alt="Sorting Complete">
+</p>
 
----
+<hr>
 
-![Divider](assets/Dots.png)
+<p align="center">
+  <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## ⚙️ How It Works
 
-Sortify reads all files inside your chosen folder and moves them into organized subdirectories based on file extension categories you define in the config file.
+Sortify scans your chosen folder and automatically moves files into categorized subfolders based on extension mappings defined inside `config.py`.
 
 ### Default Categories:
-- Images → `.png`, `.jpg`, `.jpeg`, `.gif`  
-- Documents → `.pdf`, `.docx`, `.pptx`, `.txt`  
-- Archives → `.zip`, `.rar`, `.7z`  
-- Media → `.mp3`, `.mp4`, `.wav`  
-- Others → Unmatched file extensions  
+- **Images:** `.png`, `.jpg`, `.jpeg`, `.gif`  
+- **Documents:** `.pdf`, `.docx`, `.pptx`, `.txt`  
+- **Archives:** `.zip`, `.rar`, `.7z`  
+- **Media:** `.mp3`, `.mp4`, `.wav`  
+- **Others:** Any unmatched extensions  
 
-You can edit all categories in `config.py`.
+You can customize all categories to fit your workflow.
 
----
+<hr>
 
-![Divider](assets/star.png)
+<p align="center">
+  <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 🚀 Getting Started
 
-### **1. Clone the Repository**
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Mallesh-145/Sortify.git
 cd Sortify
 ```
 
-### **2. Install Dependencies (if any)**
+### 2. Install Dependencies (if required)
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3. Run the App**
+### 3. Run the Application
 ```bash
 python gui.py
 ```
 
-Sortify will open with a clean GUI where you can choose your folder and start sorting instantly.
+The Sortify GUI will launch — select your folder and click **Sort** to clean everything instantly.
 
----
+<hr>
 
-![Divider](assets/wave.png)
+<p align="center">
+  <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 🧩 Project Structure
 
 ```
 Sortify/
 │
-├── base.py            # Core helper logic
-├── config.py          # File category rules & settings
-├── Organiser.py       # Main sorting engine
-├── gui.py             # Tkinter UI
-└── assets/            # Images used in README
+├── base.py               # Core helper utilities
+├── config.py             # File-type rules and category mapping
+├── Organiser.py          # Main sorting engine
+├── gui.py                # Tkinter-based GUI
+└── assets/               # Images used in README
 ```
 
----
+<hr>
 
-![Divider](assets/Dots.png)
+<p align="center">
+  <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
-## ✨ Dark Mode Banner (Bonus)
+## ✨ Dark Mode Banner
 
-![Dark Banner](assets/banner-dark.png)
+<p align="center">
+  <img src="assets/banner-dark.png" width="400" style="max-width:100%;height:auto;" alt="Dark Mode Banner">
+</p>
 
----
+<hr>
 
-![Divider](assets/star.png)
+<p align="center">
+  <img src="assets/star.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 🔮 Future Enhancements
 
 - Drag-and-drop folder selection  
-- Progress percentage indicator  
-- Undo/restore previous sort  
-- Scheduling (auto-sort every hour/day)  
-- Theme selector (light/dark UI)  
-- More advanced category mapping UI  
+- Progress bar with real-time updates  
+- Undo / restore previous sort  
+- Scheduled auto-sort (hourly/daily)  
+- Light/Dark theme switcher  
+- Advanced rule editor for custom file mappings  
 
----
+<hr>
 
-![Divider](assets/wave.png)
+<p align="center">
+  <img src="assets/wave.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
 
 ## 👤 Developer
 
-**Mallesh (Echo)**  
-A developer exploring automation, Python GUI tools, and clean UI-driven workflows.
+Mallesh   
+Building automation tools, clean UIs, and useful desktop utilities in Python.
 
-If you like this project, ⭐ star the repo!
+If you like this project, consider giving it a ⭐ on GitHub!
 
----
-
-![Divider](assets/Dots.png)
-
+<p align="center">
+  <img src="assets/Dots.png" width="200" style="max-width:100%;height:auto;" alt="Divider">
+</p>
